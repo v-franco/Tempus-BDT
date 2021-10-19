@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
@@ -60,6 +61,12 @@ class RegisterView : AppCompatActivity() {
 
         binding.textViewAcceder.setOnClickListener {
             finish()
+        }
+
+        binding.termsConditions.setOnClickListener {
+            val openTerms =Intent(Intent.ACTION_VIEW)
+            openTerms.data =  Uri.parse("https://docs.google.com/document/d/1TSyaGm2982EtXAw2XFHdph3yWw8ZhYc5/edit?usp=sharing&ouid=117497648589784769211&rtpof=true&sd=true")
+            startActivity(openTerms)
         }
 
         //Button Register trigger

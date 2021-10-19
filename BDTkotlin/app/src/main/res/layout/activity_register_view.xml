@@ -235,9 +235,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:buttonTint="#0386D0"
-                    android:text="Acepto las Condiciones de Servicio \ny la Política de Privacidad"
                     android:textAlignment="center"
                     android:textColor="#6B5E5E" />
+
+                <TextView
+                    android:id="@+id/terms_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/majalla"
+                    android:gravity="center"
+                    android:text="Acepto los términos y condiciones y \nla política de privacidad"
+                    android:textColor="#036BB9"
+                    android:textSize="18sp"
+                    />
 
                 <Space
                     android:layout_width="wrap_content"
