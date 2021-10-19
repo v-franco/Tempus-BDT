@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1019630827316",
+    "project_id": "banco-de-tiempo-73be5",
+    "storage_bucket": "banco-de-tiempo-73be5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019630827316:android:7ba37f65306f6426229761",
+        "android_client_info": {
+          "package_name": "com.example.bdtkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019630827316-5lo572o3vm81ics8ro375ps0oevr8uqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7LqeFc3I3MXo1UE9tqyGYA8psRRGwA-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019630827316-5lo572o3vm81ics8ro375ps0oevr8uqg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1019630827316-0jnd1msoa1bt12ved2t6bhqfe347mreb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "AetherSTD.Banco-de-tiempo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

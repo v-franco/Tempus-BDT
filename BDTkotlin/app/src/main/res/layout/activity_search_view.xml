@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".SearchView">
+
+    <TextView
+        android:id="@+id/text_se_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/arial_rounded_mt"
+        android:text="Buscar"
+        android:textColor="@color/normalText"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_se_search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+
+        android:background="@drawable/fi_cls_inputs"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Buscar Actividades"
+
+        android:inputType="textCapSentences"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:textColor="#D9D5F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_se_search"
+        app:layout_constraintTop_toBottomOf="@+id/text_se_search"
+        app:layout_constraintVertical_bias="0.039" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/SearchJobsRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/txt_se_search_bar"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!--Menu widget starts-->
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_st_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/color_menu_search"
+            app:fabAlignmentMode="center"
+            app:navigationIcon="@drawable/menu_vector_search" />
+
+        <com.imangazaliev.circlemenu.CircleMenu
+            android:id="@+id/menu_st_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Menu"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:centerButtonColor="#B7B6F9"
+            app:buttonColors="@array/menu_colors"
+            app:buttonIcons="@array/menu_icons"
+            app:iconsColor="?colorAccent"
+            app:layout_anchor="@+id/bottom_st_bar"
+            app:layout_anchorGravity="top|center"
+            app:maxAngle="180"
+            app:showSelectAnimation="false"
+            app:startAngle="-157" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <!--Menu widget ends-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

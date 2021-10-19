@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/fi_cls_button.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/fi_cls_button_tags.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/fi_cls_inputs.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/fi_icon_logo.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/fi_icon_mail.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/hm_cls_banner.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/hm_vector_diamond.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/hm_vector_hexagon.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/hm_vector_icon_notifications.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/hm_vector_petition.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/menu_vector_home.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/menu_vector_myjobs.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/menu_vector_search.xml" value="0.3828125" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/menu_vector_settings.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/rg_icon_check.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/rg_icon_ine.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/rg_icon_logo.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/rg_icon_name.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/rg_icon_password.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/spinner_background.xml" value="0.3046875" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_create_job.xml" value="0.28854166666666664" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_home_view.xml" value="0.1" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status1_op.xml" value="0.17831813576494426" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status1_user.xml" value="0.25" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status2_op.xml" value="0.33" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status2_user.xml" value="0.33" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status3_op.xml" value="0.33" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status3_user.xml" value="0.25" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status4_op.xml" value="0.33" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status4_user.xml" value="0.17831813576494426" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_user_view.xml" value="0.3211050724637681" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_jobs_main.xml" value="0.2741477272727273" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_acceder.xml" value="0.22780797101449277" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_registro.xml" value="0.22780797101449277" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_subir_documentos.xml" value="0.5" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_verification.xml" value="0.33" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_recover_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_register_verification_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_register_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_main.xml" value="0.2821557971014493" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_profile.xml" value="0.34595959595959597" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_profile_documentos.xml" value="0.5" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_teachings.xml" value="0.29010416666666666" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/job_card_layout.xml" value="0.25" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/jobs_content_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/list_hm_jobs.xml" value="0.67" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/list_hm_notification.xml" value="0.22" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/single_job_layout.xml" value="0.17831813576494426" />
+        <entry key="..\:/GitHub/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher2.xml" value="0.3828125" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/drawable/container_box.xml" value="0.2203125" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_create_job.xml" value="0.14" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_home_view.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status1_op.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status1_user.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status2_op.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status2_user.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status3_op.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status3_user.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status4_op.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_status4_user.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_job_user_view.xml" value="0.1644021739130435" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_jobs_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_acceder.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_registro.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_subir_documentos.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_login_verification.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_main.xml" value="0.1975806451612903" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_register_verification_view.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_register_view.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_search_view.xml" value="0.12590579710144928" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_main.xml" value="0.12590579710144928" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_profile_documentos.xml" value="0.33" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/activity_settings_teachings.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/job_card_layout.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/list_hm_jobs.xml" value="0.5" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/list_hm_notification.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Hp/OneDrive/Escritorio/BDT/Banco-de-tiempo-TQQ/BDTkotlin/app/src/main/res/layout/single_job_layout.xml" value="0.15896739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

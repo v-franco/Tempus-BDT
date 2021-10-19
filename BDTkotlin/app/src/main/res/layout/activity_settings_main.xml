@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".SettingsMain">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottom_st_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                app:backgroundTint="@color/color_menu_settings"
+                app:fabAlignmentMode="center"
+                app:navigationIcon="@drawable/menu_vector_settings" />
+
+            <com.imangazaliev.circlemenu.CircleMenu
+                android:id="@+id/menu_st_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Menu"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                app:buttonColors="@array/menu_colors"
+                app:buttonIcons="@array/menu_icons"
+                app:centerButtonColor="#B7B6F9"
+                app:iconsColor="?colorAccent"
+                app:layout_anchor="@+id/bottom_st_bar"
+                app:layout_anchorGravity="top|center"
+                app:maxAngle="180"
+                app:showSelectAnimation="false"
+                app:startAngle="-157" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/text_st_ajsutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/arial_rounded_mt"
+        android:text="Ajustes"
+        android:textColor="@color/normalText"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_st_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/st_vector_main"
+        android:drawablePadding="6dp"
+        android:drawableTint="@color/normalText"
+        android:text="Cuenta"
+        android:textColor="@color/normalText"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/text_st_ajsutes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_st_ajsutes"
+        app:layout_constraintTop_toBottomOf="@+id/text_st_ajsutes" />
+
+    <ImageView
+        android:id="@+id/image_st_divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_st_sub"
+        app:srcCompat="@drawable/st_vector_divisor" />
+
+    <Button
+        android:id="@+id/btn_st_profile"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/st_vector_arrow"
+        android:text="Editar Perfil"
+        android:textAlignment="textStart"
+        android:textColor="#969696"
+        app:layout_constraintEnd_toEndOf="@+id/text_st_sub"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="@+id/text_st_sub"
+        app:layout_constraintTop_toBottomOf="@+id/image_st_divider" />
+
+    <Button
+        android:id="@+id/btn_st_logout"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/st_vector_arrow"
+        android:text="Cerrar sesion"
+        android:textAlignment="textStart"
+        android:textColor="#969696"
+        app:layout_constraintEnd_toEndOf="@+id/btn_st_profile"
+        app:layout_constraintStart_toStartOf="@+id/btn_st_profile"
+        app:layout_constraintTop_toBottomOf="@+id/btn_st_profile" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

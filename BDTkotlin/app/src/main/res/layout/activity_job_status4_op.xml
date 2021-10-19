@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".JobStatus4OP">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btn_uvjop_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="close"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/rg_icon_close"
+                app:tint="#6D7A94" />
+
+            <TextView
+                android:id="@+id/text_jv_jobtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="arial"
+                android:layout_marginEnd="35dp"
+                android:maxLines="4"
+                android:text="Título de trabajo"
+                android:textColor="#222B45"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/progressbar"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:progress="100"
+                app:trackCornerRadius="12dp"
+                app:trackThickness="8dp" />
+
+            <TextView
+                android:id="@+id/wait_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/arial_rounded_mt"
+                android:text="Califica el servicio"
+                android:textColor="@color/normalText"
+                android:textSize="20sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar_ujv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:contentDescription="Puntuacion"
+                android:progressTint="@color/color_menu_myjobs" />
+
+            <Button
+                android:id="@+id/btn_ujv_Contact"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/fi_cls_button"
+                android:text="Terminar trabajo"
+                android:layout_marginBottom="60dp"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:theme="@style/firg_buttons" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/bottom_blue" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

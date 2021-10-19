@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bdtkotlin">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BDTkotlin">
+        <activity
+            android:name=".RecoverPassword"
+            android:exported="true" />
+        <activity
+            android:name=".login_verification"
+            android:exported="false" />
+        <activity
+            android:name=".settings_profile_documentos"
+            android:exported="true" />
+        <activity
+            android:name=".SearchView"
+            android:exported="true" />
+        <activity
+            android:name=".login_subirDocumentos"
+            android:exported="true" />
+        <activity
+            android:name=".login_registro"
+            android:exported="true" />
+        <activity
+            android:name=".login_acceder"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus4User"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus3User"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus2User"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus1User"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus4OP"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus3OP"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus2OP"
+            android:exported="true" />
+        <activity
+            android:name=".JobUserView"
+            android:exported="true" />
+        <activity
+            android:name=".JobStatus1OP"
+            android:exported="true" />
+        <activity
+            android:name=".CreateJob"
+            android:exported="true" />
+        <activity
+            android:name=".JobsMain"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsTeachings"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsProfile"
+            android:exported="true" />
+        <activity
+            android:name=".SettingsMain"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterVerificationView"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.bdtkotlin.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider" />
+        </provider>
+
+        <activity
+            android:name=".HomeView"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterView"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

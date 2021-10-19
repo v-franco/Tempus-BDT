@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Mode -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="mainBackground">#E7EEF3</color>
+
+    <color name="hm_card_notification_BG">#8194F3</color>
+    <color name="hm_card_friends_BG">#68C4F9</color>
+
+    <color name="normalText">#000000</color>
+    <color name="abilitiesText">#666585</color>
+
+    <!-- Menu colors -->
+    <color name="color_menu_search">#FF565E</color>
+    <color name="color_menu_myjobs">#FF974A</color>
+    <color name="color_menu_home">#FFC542</color>
+    <color name="color_menu_pending">#3DD598</color>
+    <color name="color_menu_settings">#0062FF</color>
+</resources>

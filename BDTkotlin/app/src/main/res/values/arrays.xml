@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu_colors">
+        <item>@color/color_menu_search</item>
+        <item>@color/color_menu_myjobs</item>
+        <item>@color/color_menu_home</item>
+        <item>@color/color_menu_settings</item>
+    </array>
+
+    <array name="menu_icons">
+        <item>@drawable/menu_vector_search</item>
+        <item>@drawable/menu_vector_myjobs</item>
+        <item>@drawable/menu_vector_home</item>
+        <item>@drawable/menu_vector_settings</item>
+    </array>
+</resources>

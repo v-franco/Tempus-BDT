@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".JobsMain">
+
+
+    <!--Menu widget starts-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_st_ajsutes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="arial"
+                    android:text="Trabajos"
+                    android:textColor="#222B45"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/addJobButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="35dp"
+                    android:backgroundTint="@color/color_menu_myjobs"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/avd_cross_to_plus" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/JobsRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_marginTop="20dp"
+
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottom_st_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@color/color_menu_myjobs"
+            app:fabAlignmentMode="center"
+            app:navigationIcon="@drawable/menu_vector_myjobs" />
+
+        <com.imangazaliev.circlemenu.CircleMenu
+            android:id="@+id/menu_st_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Menu"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            app:centerButtonColor="#B7B6F9"
+            app:buttonColors="@array/menu_colors"
+            app:buttonIcons="@array/menu_icons"
+            app:iconsColor="?colorAccent"
+            app:layout_anchor="@+id/bottom_st_bar"
+            app:layout_anchorGravity="top|center"
+            app:maxAngle="180"
+            app:showSelectAnimation="false"
+            app:startAngle="-157" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <!--Menu widget ends-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
