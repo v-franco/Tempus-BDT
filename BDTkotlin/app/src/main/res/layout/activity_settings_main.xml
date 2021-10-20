@@ -96,7 +96,8 @@
         app:layout_constraintEnd_toEndOf="@+id/text_st_sub"
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="@+id/text_st_sub"
-        app:layout_constraintTop_toBottomOf="@+id/image_st_divider" />
+        app:layout_constraintTop_toBottomOf="@+id/image_st_divider"
+        android:visibility="invisible"/>
 
     <Button
         android:id="@+id/btn_st_logout"
